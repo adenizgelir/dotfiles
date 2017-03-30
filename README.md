@@ -2,7 +2,7 @@ adenizgelir dotfiles
 ====================
 This repository contains my configuration files
 
-Install
+Install & Configure
 -------
 Clone the dotfiles:
 
