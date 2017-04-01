@@ -1,4 +1,3 @@
-"vimrc of adg
 set nocompatible
 filetype off
 
@@ -12,6 +11,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 syntax enable
@@ -45,7 +45,7 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
-
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 set path+=**
 set wildmenu
 nnoremap <C-Left> :tabprevious<CR>
