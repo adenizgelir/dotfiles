@@ -1,4 +1,4 @@
-"vimrc of adenizgelir
+"vimrc of adg
 set nocompatible
 filetype off
 
